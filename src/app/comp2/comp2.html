@@ -1,0 +1,14 @@
+<div class="container">
+<h2>This is comp2</h2>
+  <div style="margin-bottom: 2%">
+<button class="btn btn-primary btn-lg" (click)="fun()" [disabled]="!isdisabled">{{clickstatus}}</button>
+  </div>
+    <div style="width: 50%">
+<form class="form-horizontal">
+<input type="text" class="form-control"  (input)="onInput($event)">
+</form>
+  </div>
+  <div class="text-capitalize">
+    <h2>{{inputstring}}</h2>
+  </div>
+</div>
