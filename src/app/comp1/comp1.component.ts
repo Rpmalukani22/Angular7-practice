@@ -5,4 +5,7 @@ import {Component} from '@angular/core';
 })
 export class Comp1 {
   'title': 'Heros';
+  getColor(){
+    return Math.random() > 0.5?'green':'red';
+  }
 }
