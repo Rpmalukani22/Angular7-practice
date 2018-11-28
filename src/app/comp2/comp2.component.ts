@@ -14,6 +14,7 @@ import {Component} from '@angular/core';
   templateUrl: 'comp2.html'
 })
 export class Comp2 {
+
   clickstatus = 'Don\'t click me please!';
   isdisabled = true;
   inputstring = '';

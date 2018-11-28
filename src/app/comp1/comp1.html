@@ -3,3 +3,5 @@
 </div>
 <div style="height: 50px;width: 50px;margin-left: 50px;" [ngStyle]="{'background-color': getColor()}">
 </div>
+<button class="btn btn-lg btn-primary" (click)="adddiv()">Add component</button>
+<div style="border:1px dashed red" *ngFor="let var of ary;let i=index;">div{{i}} created</div>
